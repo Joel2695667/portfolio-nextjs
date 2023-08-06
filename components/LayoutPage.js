@@ -3,14 +3,14 @@ import { Container, Row, Col } from "react-bootstrap";
 import { TbArrowNarrowRight } from "react-icons/tb";
 import Image from "react-bootstrap/Image";
 import "./component.css";
-import { useRouter } from 'next/navigation';
+import { useRouter } from "next/navigation";
 
 const LayoutPage = () => {
   const router = useRouter();
 
   const handleContactClick = () => {
     // Rediriger vers la page de contact
-    router.push("/Contact");
+    router.push("/contact");
   };
 
   const handleDownloadClick = () => {

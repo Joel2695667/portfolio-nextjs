@@ -1,0 +1,145 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./components/component.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************/
+/*Style du point du slogan (Fernand.dev)*/
+.pointPerso{
+    color: #4169E1;
+    font-size: 3rem;
+    
+}
+
+
+/*Style des items du navbar, lorsque ces derniers sont actives*/
+.active {
+    font-weight: bold;
+    color: #4169E1!important;
+}
+
+
+/*Stle des items du navbar*/
+.navbarPerso{
+    font-size: 1.2rem;
+    color: black!important;
+    font-weight: 400!important; 
+    font-family: 'Merriweather', serif;
+}
+
+
+/*Style du msg (titre) sur la page d'acceuil*/
+.titrePerso{
+    margin-top: 6em;
+    background-image: linear-gradient(to right, #8c09f0, #6477e5, #11c1f7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+
+/*Style de ma photo*/
+.persoImage{
+    width: 400px;
+    height: 400px;
+    margin-top: 7em;
+}
+
+
+/*Style pour rendre la page d'accueil responsive*/
+@media (max-width: 992px) {
+    .persoColImage {
+        text-align: center;
+    }
+}
+
+@media (min-width: 993px) {
+    .persoColImage {
+        text-align: center;
+    }
+}
+
+
+/* Style du contenu de la page d'accueil */
+.layoutAcceuil{
+    min-height: 80vh;
+    font-family: 'Merriweather', serif;
+}
+
+
+/* Style des boutons */
+.boutonUpdate{
+    background: #37499d !important;
+    color: white !important;
+}
+.boutonBordure{
+    font-weight: bold !important;
+    font-size: 1.2rem !important;
+    font-family: 'Diphylleia', serif !important;
+}
+
+/* Style des boutons en survol*/
+.boutonBordure:hover {
+    border: 1px solid #4169E1 !important;
+    background: #4169E1 !important;
+    color: white !important;
+}
+
+
+/* Style pour la police personnaliser  */
+.policePerso{
+    font-family: 'Merriweather', serif !important;
+}
+
+
+/*Style du composant principale de la page Contact*/
+.persoProjet{
+    font-family: 'Diphylleia', serif !important;
+    margin-top: 6em;
+    min-height: 70vh;
+}
+
+
+/*Style du titre du texte sur la page de projet*/
+.titreProjet{
+    font-family: 'Merriweather', serif !important;
+    margin-bottom: 1em;
+}
+
+
+/*Style du contenaire du formualire de contact*/
+.wrapperFormualire{
+    max-width: 60%;
+    margin:  0 auto;
+    min-height: 80vh;
+    padding: 30px;
+    padding-top: 120px !important;
+    font-family: 'Merriweather', serif !important;
+}
+
+
+.custom-form-control {
+    border-radius: 0 !important; /* Désactiver les bordures arrondies */
+  }
+
+  .custom-form-control:focus {
+    outline: none !important; /* Supprimer l'outline par défaut */
+    box-shadow: none !important; /* Supprimer le box-shadow par défaut */
+  }
+
+  .titreCard{
+    color: #4169E1 !important;
+  }
+  
+/*!**********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./app/projet.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************/
+.custom-image {
+    width: 100%;
+    height: 400px;
+}
+
+.titre{
+    font-size: 2rem !important; 
+}
+
+.textPerso{
+    font-size: 1.2rem !important;
+}

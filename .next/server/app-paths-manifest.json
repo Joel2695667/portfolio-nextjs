@@ -1,3 +1,9 @@
 {
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/projet/page": "app/projet/page.js",
+  "/pacman/page": "app/pacman/page.js",
+  "/monitoring/page": "app/monitoring/page.js",
+  "/2048/page": "app/2048/page.js",
+  "/contact/page": "app/contact/page.js"
 }

@@ -3,6 +3,7 @@ import { Container } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
 import "./component.css";
+import Link from "next/link";
 
 const GridProjet = () => {
   return (
@@ -25,6 +26,12 @@ const GridProjet = () => {
                 <li>Langage de programmation : C#</li>
                 <li>IDE : Visual Studio 2019</li>
                 <li>Dans le cadre du cours : Developpement de jeux</li>
+                <li>
+                  <Link
+                      href="/pacman">
+                  Voir plus
+                  </Link>
+                </li>
               </ul>
             </Card.Text>
           </Card.Body>
@@ -44,6 +51,12 @@ const GridProjet = () => {
                   Dans le cadre du cours : Introduction à la programmation Web
                   client
                 </li>
+                  <li>
+                    <Link
+                      href="/2048">
+                      Voir plus
+                    </Link>
+                  </li>
               </ul>
             </Card.Text>
           </Card.Body>
@@ -62,6 +75,12 @@ const GridProjet = () => {
                 <li>
                   {"Dans le cadre du cours : Developpement d'application Desktop"}
                 </li>
+                  <li>
+                    <Link
+                      href="/monitoring">
+                      Voir plus
+                    </Link>
+                  </li>
               </ul>
             </Card.Text>
           </Card.Body>
