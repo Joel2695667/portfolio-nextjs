@@ -6,7 +6,7 @@ Bienvenue dans mon portfolio !
 
 1. Clonez ce référentiel sur votre machine locale.
 2. Exécutez la commande `npm install` pour installer les dépendances nécessaires.
-3. Utilisez la commande `npm start` pour démarrer le serveur de développement et accéder à l'application dans votre navigateur.
+3. Utilisez la commande `npm run dev` pour démarrer le serveur de développement et accéder à l'application dans votre navigateur.
 
 
 ## Aperçu
@@ -14,19 +14,22 @@ Bienvenue dans mon portfolio !
 Voici quelques captures d'écran des pages intéressantes de mon portfolio :
 
 ### Accueil
-<img width="1536" alt="page_acceuil" src="https://github.com/Joel2695667/portfolio-react/assets/103005400/eab75416-215b-4aa6-bdeb-f48033565471">
-
-
+![Acceuil](https://github.com/Joel2695667/portfolio-nextjs/assets/103005400/823b4d70-f1c2-45c6-8da5-ed5dd50276c5)
 La page d'accueil présente une introduction à mon profil.
 
 ### Projets
-<img width="1536" alt="page_projet" src="https://github.com/Joel2695667/portfolio-react/assets/103005400/c404aa94-0e52-41d1-83a2-fee7793ab233">
 
-
+![Projet](https://github.com/Joel2695667/portfolio-nextjs/assets/103005400/23b23521-24b2-4a69-b88d-7391478e2617)
 La section des projets présente une sélection de mes réalisations avec des descriptions.
 
+
+### Temoignages
+
+![Témoignages](https://github.com/Joel2695667/portfolio-nextjs/assets/103005400/c97e1a16-ee5b-416c-8845-ac243917b5cd)
+Cette section met en évidence le témoignage de certaines personnes
+
+
 ### Contact
-<img width="1536" alt="page_contact" src="https://github.com/Joel2695667/portfolio-react/assets/103005400/7cddbf5a-b85e-409e-aade-e5c58da22093">
 
-
+![Contact](https://github.com/Joel2695667/portfolio-nextjs/assets/103005400/cca05501-5517-4969-a19a-b6c1f8a7a248)
 La page de contact permet de me contacter.
